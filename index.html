@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <title>神経衰弱</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!-- ゲーム画面の定義 --- (*1) -->
+<body style="text-align:center; margin: 0px; padding: 0px;">
+    <div id="title" style="background-color:blue; color:white;">神経衰弱</div>
+    <div id="info">-</div>
+    <canvas id="canvas" width="380" height="665"></canvas>
+    <img id="cards" src="./cards.png" style="display:none;">
+</body>
+
+<!-- PyScriptの読み込み --- (*2) -->
+<script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+<script type="mpy" src="./utils.py"></script>
+<script type="mpy" src="./main.py"></script>
+<script type="mpy" src="./draw.py"></script>
+<script type="mpy" src="./click.py"></script>
+</html>
